@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-size: 48px;
+    color: whitesmoke;
+    background-color: rgb(40, 7, 102);
+    margin: 0px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 24px;
+    color: whitesmoke;
+    background-color: rgb(4, 4, 73);
+    margin: 0px;
+}
+
+.options-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+    gap: 20px;
+    background-color: rgb(4, 4, 73);
+}
+
+button {
+    background-color: rgb(4, 4, 73);
+    border-style: solid;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    transition: all .07s;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 24px;
+    color: whitesmoke;
+    background-color: rgb(4, 4, 73);
+    margin: 0px;
+}
+
+img {
+    height: 100px;
+}
+
+.hoverover {
+    transform: scale(1.1);
+    border-color: aqua;
+    box-shadow: 0 0 10px aqua;
+}
+
+.scores-wrapper {
+    display: flex;
+    background-color: rgb(4, 4, 73);
+    color: whitesmoke;
+    justify-content: center;
+    gap: 100px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 48px;
+}

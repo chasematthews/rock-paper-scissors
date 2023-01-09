@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>ROCK PAPER SCISSORS</h1>
+    <h2>Select rock, paper or scissors. The first to 5 wins!</h2>
+    <div class = "options-wrapper">
+        <div class = "option-wrapper">
+            <button id="btn-rock">
+                <img src = "images/rock.png">
+                <h3>ROCK</h3> 
+            </button>
+        </div>
+        <div class = "option-wrapper">
+            <button id="btn-paper">
+                <img src = "images/paper.png">
+                <h3>PAPER</h3> 
+            </button>
+        </div>
+        <div class = "option-wrapper">
+            <button id="btn-scissors">
+                <img src = "images/scissors.png">
+                <h3>SCISSORS</h3> 
+            </button>
+        </div>
+    </div>
+    <div class = "scores-wrapper">
+        <div class = "user-wrapper">
+            <h4>PLAYER</h4>
+            <h5 id="player-score">0</h5>
+        </div>
+        <div class = "user-wrapper">
+            <h4>COMPUTER</h4>
+            <h5 id="computer-score">0</h5>
+        </div>
+    </div>
     <script src="rps.js">
     </script>
 </body>
